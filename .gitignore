@@ -1,0 +1,42 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment and config
+.env
+.env.*
+*.token
+*.secret
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/project files
+.vscode/
+.idea/
+*.iml
+
+# Output or test data
+numbers.csv
+*.pdf
+*.csv
+
+# Optional: exclude generated archives
+*.zip
+*.tar.gz
